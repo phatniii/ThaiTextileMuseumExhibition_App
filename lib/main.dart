@@ -28,7 +28,6 @@ class _HomePageState extends State<HomePage> {
     {'name': 'ผ้าฝ้าย', 'age': '20 ', 'category': 'ผ้าฝ้าย'},
     {'name': 'ผ้าไทครั่ง', 'age': '100', 'category': 'ไทครั่ง'}
   ];
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
