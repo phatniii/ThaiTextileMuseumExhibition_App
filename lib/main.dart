@@ -24,9 +24,9 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   List<Map<String, dynamic>> textiles = [
-    {'name': 'ผ้าไหม', 'age': '50', 'category': 'ผ้าไหม'},
-    {'name': 'ผ้าฝ้าย', 'age': '20 ', 'category': 'ผ้าฝ้าย'},
-    {'name': 'ผ้าไทครั่ง', 'age': '100', 'category': 'ไทครั่ง'}
+    {'name': 'ผ้าไหม', 'age': '50 ปี', 'category': 'ผ้าไหม'},
+    {'name': 'ผ้าฝ้าย', 'age': '20 ปี', 'category': 'ผ้าฝ้าย'},
+    {'name': 'ผ้าไทครั่ง', 'age': '100 ปี', 'category': 'ไทครั่ง'}
   ];
   @override
   Widget build(BuildContext context) {
@@ -69,7 +69,7 @@ class _HomePageState extends State<HomePage> {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         SizedBox(height: 8),
-        Text('อายุ: ${textiles[index]['age']}'),
+        Text('อายุผ้าไทย: ${textiles[index]['age']}'),
         SizedBox(height: 4),
         Text('ประเภท: ${textiles[index]['category']}'),
       ],
